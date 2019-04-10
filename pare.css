@@ -1,0 +1,211 @@
+body{
+    font-family: 'Source code pro', Calibri, serif;
+    margin: 0px;
+    padding: 0px;
+}
+#maman{
+    border: 3px double gray; 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    margin-left: 500px;
+    width: 150px;
+    
+    
+    
+}
+nav{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #424558; 
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav > ul > li > a{
+     padding: 20px 30px; 
+     color: #FFF; 
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+    width: 25%;
+
+}
+nav li{
+    list-style-type: none;
+}
+.submenu{
+    display: none;
+}
+nav a{
+     display: inline-block;
+     text-decoration: none;
+}
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+.men1:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15); 
+}
+#men2:hover{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000, 112, 192, 0.15); 
+}
+.men3:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15); 
+}
+#men4:hover{
+    border-top: 5px solid #BBB;
+    background-color: RGBa(220, 220, 220, 0.15); 
+}
+
+.men1 .submenu{
+background-color: RGB(230, 100,40)
+}
+#men2 .submenu{
+    background-color: RGB(000, 160, 240)
+}
+.men3 .submenu{
+    background-color: RGB(250, 215,100)
+}
+#men4 .submenu{
+    background-color: RGB(230, 100,40)
+}
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+@media screen and (max-width: 680px){
+    body{
+        background-color: RGBa(220, 220, 220, 0.15);
+    }
+    #maman{
+         width: 100%;   
+    }
+    #aine{
+        width: 100%;   
+    }
+    
+       #fils2{
+        width: 100%;
+       }
+       moi{
+        width: 100%;
+       }
+       toi{
+        width: 100%;
+       }
+}
+@media screen and (min-width: 681px) and (max-width: 1279px){
+    body{
+        background-color: orange;
+       
+    }
+    #maman{
+        width: 100%;   
+   }
+   #aine{
+    width: 100%;   
+   }
+   #fils2{
+    width: 100%;
+   }
+   moi{
+    width: 100%;
+   }
+   toi{
+    width: 100%;
+   }
+}
+@media screen and (min-width: 1280px){
+    body{ 
+        background-color:gray; 
+}
+
+
+}
+.moi{
+    margin-top: 50px;
+    margin-left: 200px;;
+}
+.awa{
+width: 600px;
+height: 600px;
+border: 1px double black;
+
+
+}
+.ndiaye{
+    width: 293px;
+    height: 293px;
+    border: 3px double black;
+    margin-left: 610px;
+    margin-top: -600px;
+   
+
+   
+}
+.sene{
+    width: 293px;
+    height: 293px;
+    border: 1px double black;
+    margin-left: 610px;
+    margin-top: 7px;
+}
+#toi{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+#dev{
+    width: 300px;
+    height: 300px;
+    border: 1px ridge black;
+
+}
+
+#ref { 
+     width: 300px;
+    height: 300px;
+    border: 1px ridge black;
+    margin-left: 310px;
+    margin-top: -300px;
+
+    }
+
+#artisan{
+    width: 300px;
+    height: 300px;
+    border: 1px ridge black;
+    margin-left: 620px;
+    margin-top: -300px;
+    }
